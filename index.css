@@ -11,9 +11,17 @@ body {
     font-family: Oxygen, sans-serif;
 }
 
+#title {
+    font-size: 3rem;
+}
+
+#activity {
+    font-size: 2rem;
+}
+
 button {
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
     background-color: red;
     border: 1px solid darkred;    
@@ -116,7 +124,7 @@ button:active {
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
     .rightnav {
         flex-direction: column;
     }
@@ -126,6 +134,21 @@ button:active {
         margin: 3px 8px;
         padding: 5px 10px;
         font-size: 14px;
+    }
+
+        #title {
+            font-size: 2rem;
+        }
+        
+        #activity {
+            font-size: 1.5rem;
+        }
+        
+        button {
+            height: 100px;
+            width: 100px;
+        }
 }
-}
+
+
 
