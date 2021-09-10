@@ -10,7 +10,8 @@ function getActivity() {
 }
 
 function loading() {
-      document.body.classList.remove("fun")  
+    document.body.classList.remove("fun")  
+    document.getElementById("title").textContent = "🤔 ThinkingBot 🧠"
     document.getElementById("activity").textContent = "DRUM ROLL PLEASE..."
     setTimeout(getActivity, 2000)
   
